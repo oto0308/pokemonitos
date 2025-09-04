@@ -1,0 +1,20 @@
+.property-grid-container {
+    width: 100%;
+    padding: 2rem 0;
+  }
+  
+  .property-grid-container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #222;
+    padding: 0 2rem;
+  }
+  
+  .property-grid {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    overflow-x: auto;
+    padding: 0 2rem 1rem 2rem;
+  }
