@@ -197,7 +197,8 @@ export function getPokemon(nameOrId: any, opts: { ttlMs?: number | undefined; de
  * ejemplo de uso:
  *      const list = await getPokemonList({ limit: 151, offset: 0 }, { ttlMs: TTL.LONG, dedupe: true });
  *      dato que opts es opcional podrias usarlo asi, solo con params:
- *      const list = await getPokemonList({ limit: 151, offset: 0 }); * 
+ *      const list = await getPokemonList({ limit: 151, offset: 0 }); 
+ *   respuesta esperada: 
  * 
     *
  */
